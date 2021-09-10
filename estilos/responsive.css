@@ -1,0 +1,50 @@
+/*Responsivo para la seccion de inicio*/
+@media screen and (max-width: 768px){
+    .seccion-inicio .div-imagen, .div-vacio{
+        display: none;    
+    }
+
+    .seccion-inicio .div-general-titulo .div-imagen-res{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 550px){
+    /*Reponsive del titulo*/
+    .seccion-inicio .div-general-titulo .div-texto h1{
+        font-size: 60px;
+    }
+    
+    /*Responsive del div de imagen*/
+    .seccion-inicio .div-general-titulo .div-imagen-res{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 460px){
+    /*Reponsive del titulo*/
+    .seccion-inicio .div-general-titulo .div-texto{
+        width: 80%;
+    }
+
+    .seccion-inicio .div-general-titulo .div-texto h1{
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    /*Responsive del de la imagen*/
+    .seccion-inicio .div-general-titulo .div-imagen-res img{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    /*Reponsive del titulo*/
+    .seccion-inicio .div-general-titulo .div-texto h1{
+        font-size: 40px;
+    }
+        
+}
