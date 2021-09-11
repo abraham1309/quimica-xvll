@@ -9,22 +9,75 @@
         justify-content: center;
         align-items: center;
     }
+
+    /*Seccion de articulos*/
+    .seccion-articulo{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 10%;
+        padding-top: 10%;
+    }
+    
+    .seccion-articulo .div-general-tex, .div-general-imagen{
+        height: auto;
+    }
+
+    /*Seccion de multimedia*/
+    .seccion-multimedia{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 10%;
+        padding-top: 10%;
+    }
+
+    .seccion-multimedia .div-general-tex, .div-general-imagen{
+        height: auto;
+    }
+
+
+    .seccion-multimedia .div-general-imagen{
+        height: 60vh;
+    }
+
+    .seccion-multimedia .div-general-imagen .div-imagen{
+        width: 90%;
+        height: 90%;
+    }
 }
 
 @media screen and (max-width: 550px){
-    /*Reponsive del titulo*/
+    /*Titulo del inicio*/
     .seccion-inicio .div-general-titulo .div-texto h1{
         font-size: 60px;
     }
     
-    /*Responsive del div de imagen*/
+    /*div de la imagen del inicio*/
     .seccion-inicio .div-general-titulo .div-imagen-res{
         margin-top: 10%;
+    }
+
+    /*Parrafo del articulo*/
+    .seccion-articulo .div-general-tex .div-tex p{
+        font-size: 20px;
+    }
+
+    .seccion-multimedia .div-general-tex .div-tex p{
+        font-size: 20px;
+    }
+
+    .seccion-multimedia .div-general-imagen{
+        height: 40vh;
     }
 }
 
 @media screen and (max-width: 460px){
-    /*Reponsive del titulo*/
+    /*Titulo de incio*/
     .seccion-inicio .div-general-titulo .div-texto{
         width: 80%;
     }
@@ -32,19 +85,44 @@
     .seccion-inicio .div-general-titulo .div-texto h1{
         font-size: 50px;
     }
+
+    .seccion-multimedia .div-general-imagen{
+        height: 35vh;
+    }
 }
 
 @media screen and (max-width: 350px){
-    /*Responsive del de la imagen*/
+    /*Imagen del incio*/
     .seccion-inicio .div-general-titulo .div-imagen-res img{
         width: 75%;
     }
 }
 
 @media screen and (max-width: 320px){
-    /*Reponsive del titulo*/
+    /*Titulo del inicio*/
     .seccion-inicio .div-general-titulo .div-texto h1{
         font-size: 40px;
+    }
+
+    .seccion-articulo .div-general-tex .div-tex h2{
+        font-size: 45px;
+    }
+
+    /*Parrafo del articulo*/
+    .seccion-articulo .div-general-tex .div-tex p{
+        font-size: 18px;
+    }
+
+    .seccion-multimedia .div-general-imagen{
+        height: 32vh;
+    }
+
+    .seccion-multimedia .div-general-tex .div-tex h2{
+        font-size: 45px;
+    }
+
+    .seccion-multimedia .div-general-tex .div-tex p{
+        font-size: 18px;
     }
         
 }

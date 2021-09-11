@@ -20,3 +20,24 @@ const typed=new Typed('.typed', {
 	cursorChar: '|', // Caracter para el cursor
 	contentType: 'html', // 'html' o 'null' para texto sin formato
 });
+
+/*Efecto activo al hacer scroll*/
+let seccion=document.querySelectorAll('section');
+let navLinks=document.querySelectorAll('nav ul li a');
+
+window.onscroll=()=>{
+    seccion.forEach(sec=>{
+        let top=window.scrollY;
+        let cordenas=sec.offsetTop-150; /*Devuelve la posición superior (en píxeles) relativa a la parte superior del elemento*/
+        let alto=sec.offsetHeight;
+        let id=sec.getAttribute('id');
+
+        if(top>=cordenas && top<cordenas+alto){
+            navLinks.forEach(links=>{
+                links.classList.remove('activo');
+                document.querySelector('nav ul li a[href*='+ id +']').classList.add('activo');
+            });
+        }
+    });
+
+};

@@ -11,8 +11,25 @@ body{
     overflow-x: hidden;
 }
 
+.navbar a{
+    font-family: 'Libre Baskerville', serif !important;
+    font-weight: bold;
+}
+
+ul li .activo{
+    border-radius: 30px;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #482400;
+    color: #fff !important;
+    font-weight: normal;
+}
+
+/*Estilos de seccion inicio*/
 .seccion-inicio{
-    height: 100vh;
+    height: 150vh;
     width: 100vw;
 }
 
@@ -58,7 +75,7 @@ body{
     width: 90%;
 }
 
-.div-fondo{
+.div-fondo-inicio{
     position: absolute;
     height: 150vh;
     width: 100vw;
@@ -67,4 +84,130 @@ body{
     background-size: cover;
     background-position: center center;
     z-index: -1;
+}
+
+/*Estilos para la seccion de articulo*/
+.seccion-articulo{
+    width: 100vw;
+    height: 100vh;
+
+    background: url('../imagenes/Fondo-papel.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+}
+
+
+.seccion-articulo .div-general-tex, .div-general-imagen{
+    height: 100vh;
+}
+
+.seccion-articulo .div-general-tex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seccion-articulo .div-general-tex .div-tex{
+    width: 80%;
+    text-align: center;
+}
+
+.seccion-articulo .div-general-tex .div-tex h2{
+    font-family: 'Redressed', cursive;
+    font-size: 60px;
+    color: #482400;
+}
+
+.seccion-articulo .div-general-tex .div-tex p{
+    font-family: 'Livvic', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #482400;
+}
+
+.seccion-articulo .div-general-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-articulo .div-general-imagen .div-imagen{
+    width: 90%;
+}
+
+.seccion-articulo .div-general-imagen .div-imagen img{
+    width: 100%;
+}
+
+/*Estilos para la seccion de multimedia*/
+.seccion-multimedia{
+    width: 100vw;
+    height: 100vh;
+
+    background: url('../imagenes/Fondo-papel.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+}
+
+
+.seccion-multimedia .div-general-tex, .div-general-imagen{
+    height: 100vh;
+}
+
+.seccion-multimedia .div-general-tex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seccion-multimedia .div-general-tex .div-tex{
+    width: 80%;
+    text-align: center;
+}
+
+.seccion-multimedia .div-general-tex .div-tex h2{
+    font-family: 'Redressed', cursive;
+    font-size: 60px;
+    color: #482400;
+}
+
+.seccion-multimedia .div-general-tex .div-tex p{
+    font-family: 'Livvic', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #482400;
+}
+
+.seccion-multimedia .div-general-imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-multimedia .div-general-imagen .div-imagen{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #5D3D1D;
+}
+
+.seccion-multimedia .div-general-imagen .div-video{
+    width: 95%;
+    height: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #5D3D1D;
+}
+
+.seccion-multimedia .div-general-imagen .div-imagen img{
+    width: 100%;
 }
