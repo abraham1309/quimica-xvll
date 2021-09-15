@@ -52,16 +52,20 @@
 
 /* Fonts */
 body {
-  font-family: Roboto;
+  background-color:  #f7f7f7;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  overflow-x: hidden;
 }
 
 #timeline {
   padding: 100px 0;
-  background: #f7f7f7;
   border-top: 1px solid rgba(191, 191, 191, 0.4);
   border-bottom: 1px solid rgba(191, 191, 191, 0.4);
 }
 #timeline h1 {
+  font-family: 'Righteous', cursive;
   text-align: center;
   font-size: 3rem;
   font-weight: 200;
@@ -199,20 +203,24 @@ body {
   border: 1px solid rgba(191, 191, 191, 0.4);
   border-top: 0;
   padding: 15px;
+  padding-top: 1px;
 }
 @media (min-width: 1000px) {
   #timeline .demo-card .body {
-    height: 315px;
+    height: 95%;
   }
 }
 #timeline .demo-card .body p {
-  font-size: 14px;
+  font-size: 18px;
   line-height: 18px;
   margin-bottom: 15px;
+  font-family: 'Livvic', sans-serif;
+  font-weight: bold;
 }
 #timeline .demo-card .body img {
   display: block;
   width: 100%;
+
 }
 #timeline .demo-card--step1 {
   background-color: #46b8e9;
@@ -243,4 +251,11 @@ body {
 }
 #timeline .demo-card--step5 .head::after {
   border-color: #46b8e9;
+}
+
+.div-particulas{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  z-index: -1;
 }

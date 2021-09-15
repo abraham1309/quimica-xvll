@@ -8,85 +8,111 @@
 	<title>Linea de tiempo</title>
 
 	<link rel="stylesheet" href="../estilos/estilos-linea-tiempo.css">
+
+	<!--font-family: 'Righteous', cursive;-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+	<!--font-family: 'Livvic', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Livvic:wght@200&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
+	<div class="div-particulas" id="particles-js">
+
+	</div>
+	
 	<section id=timeline>
 		<h1>Linea de tiempo</h1>
-
 		<div class="demo-card-wrapper">
 			<div class="demo-card demo-card--step1">
 				<div class="head">
 					<div class="number-box">
-						<span>01</span>
+						<span>1605</span>
 					</div>
-					<h2><span class="small">Subtitle</span> Technology</h2>
 				</div>
 				<div class="body">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus
-						consequatur, laudantium odio dolorum laboriosam.</p>
-					<img src="http://placehold.it/1000x500" alt="Graphic">
+					<p>
+						<ul style="font-family: 'Livvic', sans-serif; font-weight: bold;">
+							<li>
+								Francis Bacon publica The Proficience and Advancement of Learning, que contiene una descripción de lo que más tarde pasaría a conocerse como el método científico
+							</li>
+
+							<li>
+								El polaco Michal Sedziwój publica el tratado de alquimia A New Light of Alchemy que propone la existencia del «alimento de vida» en el aire, que más tarde sería identificado como el oxígeno
+							</li>
+						</ul>
+					</p>
+					<img src="../imagenes/fecha-uno.png" alt="Advancement of Learning y A New Light of Alchemy" style="height: 45% !important; width: 65% !important; margin-left: 10% !important; margin-right: 10% !important;">
 				</div>
 			</div>
 
 			<div class="demo-card demo-card--step2">
 				<div class="head">
 					<div class="number-box">
-						<span>02</span>
+						<span>1616</span>
 					</div>
-					<h2><span class="small">Subtitle</span> Confidence</h2>
 				</div>
 				<div class="body">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus
-						consequatur, laudantium odio dolorum laboriosam.</p>
-					<img src="http://placehold.it/1000x500" alt="Graphic">
+					<p>
+						Jean Beguin publica Tyrocinium Chymicum, uno de los primeros trabajos escritos sobre química, en donde redacta la primera ecuación química de la Historia
+					</p>
+					<img src="../imagenes/fecha-2.png" alt="Tyrocinium Chymicum">
 				</div>
 			</div>
 
 			<div class="demo-card demo-card--step3">
 				<div class="head">
 					<div class="number-box">
-						<span>03</span>
+						<span>1637</span>
 					</div>
-					<h2><span class="small">Subtitle</span> Adaptation</h2>
 				</div>
 				<div class="body">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus
-						consequatur, laudantium odio dolorum laboriosam.</p>
-					<img src="http://placehold.it/1000x500" alt="Graphic">
+					<p>
+						René Descartes publica la obra Discours de la méthode, que contiene un esquema del método científico.
+					</p>
+					<img src="../imagenes/fecha-3.png" alt="Discours de la méthode">
 				</div>
 			</div>
 
 			<div class="demo-card demo-card--step4">
 				<div class="head">
 					<div class="number-box">
-						<span>04</span>
+						<span>1648</span>
 					</div>
-					<h2><span class="small">Subtitle</span> Consistency</h2>
 				</div>
 				<div class="body">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus
-						consequatur, laudantium odio dolorum laboriosam.</p>
-					<img src="http://placehold.it/1000x500" alt="Graphic">
+					<p>
+						Se publica de forma póstuma el libro Ortus medicinae del flamenco Jan Baptista van Helmont, la cual es referida por algunos como una obra notable de transición entre la alquimia y la química, además de ser una importante influencia para Robert Boyle. El escrito contiene los resultados de numerosos experimentos y establece una de las primeras versiones de la ley de conservación de la materia.
+					</p>
+					<img src="../imagenes/imagen-4.png" alt="Ortus medicinae del flamenco Jan Baptista van Helmont">
 				</div>
 			</div>
 
 			<div class="demo-card demo-card--step5">
 				<div class="head">
 					<div class="number-box">
-						<span>05</span>
+						<span>1661</span>
 					</div>
-					<h2><span class="small">Subtitle</span> Conversion</h2>
 				</div>
 				<div class="body">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus
-						consequatur, laudantium odio dolorum laboriosam.</p>
-					<img src="http://placehold.it/1000x500" alt="Graphic">
+					<p>
+						Robert Boyle publica The Sceptical Chymist, un tratado que trata sobre las diferencias entre la química y la alquimia. Este contiene asimismo algunas de las primeras nociones sobre los átomos, las moléculas y las reacciones químicas, con lo que marca el inicio de la historia de la química moderna.
+					</p>
+					<img src="../imagenes/imagen-5.png" alt="The Sceptical Chymist">
 				</div>
 			</div>
 
 		</div>
+
 	</section>
+
+	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+	<script src="../js/particulas.js"></script>
 </body>
 
 </html>
