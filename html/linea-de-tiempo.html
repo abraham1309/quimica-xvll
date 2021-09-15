@@ -9,6 +9,9 @@
 
 	<link rel="stylesheet" href="../estilos/estilos-linea-tiempo.css">
 
+	<!--Aos.js-->
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 	<!--font-family: 'Righteous', cursive;-->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,10 +28,10 @@
 	<div class="div-particulas" id="particles-js">
 
 	</div>
-	<section id=timeline>
-		<h1>Linea de tiempo</h1>
-		<div class="demo-card-wrapper">
-			<div class="demo-card demo-card--step1">
+	<section id=timeline style="overflow: hidden;">
+		<h1 data-aos="zoom-out" data-aos-duration="1500">Linea de tiempo</h1>
+		<div class="demo-card-wrapper" style="overflow: hidden;">
+			<div class="demo-card demo-card--step1" data-aos="fade-up-right" data-aos-duration="2500">
 				<div class="head">
 					<div class="number-box">
 						<span>1605</span>
@@ -50,7 +53,7 @@
 				</div>
 			</div>
 
-			<div class="demo-card demo-card--step2">
+			<div class="demo-card demo-card--step2" data-aos="fade-up-left" data-aos-duration="2500">
 				<div class="head">
 					<div class="number-box">
 						<span>1616</span>
@@ -64,7 +67,7 @@
 				</div>
 			</div>
 
-			<div class="demo-card demo-card--step3">
+			<div class="demo-card demo-card--step3" data-aos="fade-up-right" data-aos-duration="2500">
 				<div class="head">
 					<div class="number-box">
 						<span>1637</span>
@@ -78,7 +81,7 @@
 				</div>
 			</div>
 
-			<div class="demo-card demo-card--step4">
+			<div class="demo-card demo-card--step4" data-aos="fade-up-left" data-aos-duration="2500">
 				<div class="head">
 					<div class="number-box">
 						<span>1648</span>
@@ -92,7 +95,7 @@
 				</div>
 			</div>
 
-			<div class="demo-card demo-card--step5">
+			<div class="demo-card demo-card--step5" data-aos="fade-up-right" data-aos-duration="2500">
 				<div class="head">
 					<div class="number-box">
 						<span>1661</span>
@@ -107,11 +110,16 @@
 			</div>
 
 		</div>
-
 	</section>
 
 	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
 	<script src="../js/particulas.js"></script>
+
+	<!--Aos.js-->
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+		<script>
+			AOS.init();
+		</script>
 </body>
 
 </html>
