@@ -27,10 +27,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+    <!--font-family: 'Righteous', cursive;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+    <!--font-family: 'Open Sans', sans-serif;-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="background: transparent !important;">
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-dark  fixed-top" style="background-color: #000000 !important;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">QUIMICA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -43,19 +55,25 @@
                         <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#invento1">Invento 1</a>
+                        <a class="nav-link" aria-current="page" href="#presentacion">Presentacion</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#invento2">Invento 2</a>
+                        <a class="nav-link" href="#química">Química</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#invento3">Invento 3</a>
+                        <a class="nav-link" href="#aportaciones">Aportaciones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#jan">Jan</a>
                     </li>  
                     <li class="nav-item">
-                        <a class="nav-link" href="#invento4">Invento 4</a>
+                        <a class="nav-link" href="#robert">Robert</a>
                     </li>  
                     <li class="nav-item">
                         <a class="nav-link" href="#multimedia">multimedia</a>
+                    </li>  
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/linea-de-tiempo.html" target="_blank" rel="noopener noreferrer">Linea de tiempo</a>
                     </li>  
                 </ul>
             </div>
@@ -68,7 +86,7 @@
             <div class="col-12 div-general-titulo">
                 <div class="div-texto">
                     <h1>
-                        LA QUIMICA
+                        LA QUÍMICA
                         <br>
                         EN EL SIGLO XVll
                     </h1>
@@ -108,13 +126,107 @@
         </div>
     </section>
 
-    <section class="seccion-articulo" id="invento1">
+    <section class="seccion-presentacion" id="presentacion">
+        <div class="row g-0">
+            <div class="div-titulo">
+                <h1 style="text-align: center;">Presentacion</h1>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item">
+                <img src="./imagenes/logo-tec.png" width="40%" alt="Instituto Tecnológico Superior de Xalapa">
+                <h2>Universidad</h2>
+                <p>Instituto Tecnológico Superior de Xalapa</p>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item div-item-medio">
+                <i class="fas fa-user-graduate"></i>
+                <h2>Carrera</h2>
+                <p>Ingeniería en Sistemas Computacionales</p>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item">
+                <i class="fas fa-users"></i>
+                <h2>Semstre y grupo</h2>
+                <p>1-C</p>
+            </div>
+        </div>
+
+        <div class="row g-0">
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item">
+                <i class="fas fa-book"></i>
+                <h2>Materia</h2>
+                <p>Quimica</p>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item div-item-medio">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <h2>Mestro</h2>
+                <p>Parrafo</p>
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item">
+                <i class="fas fa-user-friends"></i>
+                <h2>Alumnos</h2>
+                <ul>
+                    <li>
+                        Aguirre Gutierrez Edgar Abraham
+                    </li>
+
+                    <li>
+                        Tania Jasibe Barradas Aguilar 
+                    </li>
+
+                    <li>
+                        Castillo Ramirez William David 
+                    </li >
+
+                    <li>
+                        Hernández Hernández Jose Isai 
+                    </li>
+
+                    <li>
+                        Sánchez Bandala Carlos Alberto
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion-articulo" id="química">
         <article>
             <div class="row g-0">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-tex">
                     <div class="div-tex">
-                        <h2>Hola mundo 1</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio pariatur animi voluptates qui cupiditate maxime, voluptatibus eum molestias suscipit velit culpa illo cum fugit voluptatum laborum recusandae temporibus architecto? Vitae.</p>
+                        <h2>Química</h2>
+                        <p>
+                            El siglo XVII trajo la era de la revolución científica, quizás el cambio de orientación más importante en la historia de la ciencia. Los estudiosos empiezan a preguntarse cómo ocurren las cosas.
+                            <br>
+                            El "nuevo método", una actitud nueva ante la ciencia, consistía en investigar la naturaleza con los propios sentidos y expresar las observaciones científicas en un lenguaje matemático exacto. 
+                            <br>
+                            <br>
+                            Galileo sintetizó ese espíritu de ataque a lo tradicional. 
+                            <br>
+                                <ul>
+                                    <li>
+                                        <p>•   Su ruptura propició después el camino de Newton, en el que el método científico permite la generalización de la Mecánica clásica. </p>
+                                    </li>
+
+                                    <li>
+                                       <p>•   El racionalismo cartesiano apoyó la generalización del método matemático y la visión mecanicista del universo, pero no creía en la experimentación y desconfiaba de los sentidos. Frente a él, Francis Bacon fue un elocuente defensor del método inductivo y de la experimentación. Otros pensadores siguieron por la línea del racionalismo, de Spinoza a Locke y Leibnitz, impulsando destacadamente algunas áreas del conocimiento.</p>
+                                    </li>
+                                </ul>
+                            
+                            <p>Así como las aportaciones metodológicas y conceptuales del siglo XVII fueron trascendentales:</p>
+                                <ul>
+                                    <li>
+                                        <p>•   La Cirugía del siglo XVII se basa en una práctica empírica, que, sin embargo, va asimilando los conocimientos anatómicos, todavía no ha conseguido despegar como ciencia. El puesto del cirujano en la sociedad era notablemente inferior al del médico salvo contadas excepciones.</p>                                 
+                                    </li>
+
+                                    <li>
+                                        <p>•   Por otra parte, en esta época persiste la división entre cirujanos y barberos, además de existir muchos otros "profesionales" que practicaban algunos procedimientos médicos, principalmente sangrías, extracciones dentarias, lavativas, etc.</p>                                
+                                    </li>
+                                </ul>
+                        </p>
                     </div>
                 </div>
 
@@ -127,13 +239,30 @@
         </article>
     </section>
 
-    <section class="seccion-articulo" id="invento2">
+    <section class="seccion-articulo" id="aportaciones">
         <article>
             <div class="row g-0">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-tex">
                     <div class="div-tex">
-                        <h2>Hola mundo 2</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio pariatur animi voluptates qui cupiditate maxime, voluptatibus eum molestias suscipit velit culpa illo cum fugit voluptatum laborum recusandae temporibus architecto? Vitae.</p>
+                        <h2>Aportaciones del siglo XVll</h2>
+                        <p>
+                            Una de las preocupaciones más ancestrales y obsesivas del hombre era la transformación de los cuerpos con el consiguiente paso de uno a otro, por lo cual la química en sus formas mágico experimentales -alquimia- constituía una de las ciencias más antiguas a la que se entregó con pasión. A principios del siglo XVI los esfuerzos de muchos alquimistas se dirigen a preparar drogas y remedios para curar enfermedades.
+                            <br>
+                            <br>
+                            La Química no se quedó al margen de estos adelantos, y a mediados del siglo XVII comienza a tomar su verdadera autenticidad, fundamentalmente en las personas de Joachim Jungius y Robert Boyle.
+                            <br>
+
+                            <ul>
+                                <li>
+                                    <p>•	Jungius defendió la teoría corpuscular, precisó el concepto de elemento químico. </p>
+                                </li>
+                                <li>
+                                    <p>•	Boyle (1627-1691), considerado como el verdadero fundador de la auténtica Química, combatió las viejas concepciones alquimísticas y yatroquímicas, y se liberó de los prejuicios tradicionales y dio a la Química como ciencia de la naturaleza una base experimenta: abogaba por efectuar ensayos, hacer observaciones y no expresar ninguna teoría sin haber comprobado primero los fenómenos relacionados con ella. la Química fue desde este momento, una ciencia autónoma, y el análisis que hizo sobre los átomos no se encontraba a muy lejos de los puntos de vistas modernos.</p>
+                                </li>
+                            </ul>
+                        </p>
+
+                        <p>Fue en el siglo XVII cuando se descubrió el fósforo como elemento, y Boyle estudió este elemento, así como el proceso de combustión; determinó el peso específico del mercurio, y formuló en 1660 la ley natural de los gases.</p>
                     </div>
                 </div>
 
@@ -146,13 +275,41 @@
         </article>
     </section>
 
-    <section class="seccion-articulo" id="invento3">
+    <section class="seccion-articulo" id="jan">
         <article>
             <div class="row g-0">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-tex">
                     <div class="div-tex">
-                        <h2>Hola mundo 3</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio pariatur animi voluptates qui cupiditate maxime, voluptatibus eum molestias suscipit velit culpa illo cum fugit voluptatum laborum recusandae temporibus architecto? Vitae.</p>
+                        <h2>Jan Baptista van Helmont</h2>
+                        <p>
+                            Algunas de las aportaciones de Jan fueron:
+                            <br>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            •	Este fue el primero en implementar los métodos cuantitativos en experiencias biológicas y por otro, probó al menos que la planta no se nutría solo de la parte sólida del suelo.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p>
+                                            •	Identifico los diversos cuerpos gaseosos basándose en sus propiedades, mientras que antes de él todos los gases eran tenidos por sustancialmente idénticos y no distintos del aire. Suya es la palabra "gas". 
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p>
+                                            •	También fue el primero en reconocer que había más de una sustancia del tipo del aire y que algunos vapores obtenidos en sus experimentos eran sustancias con propiedades tan diferentes a las del aire como las pudiese tener el agua.
+                                        </p>
+                                    </li>
+
+                                    <li>
+                                        <p>
+                                            •	Jan mostró que el ácido carbónico se puede obtener tratando con ácidos la piedra calcárea o la potasa, quemando carbón o dejando fermentar vino o cerveza. Indicó después su presencia en el estómago, en las aguas minerales y en cavidades terrestres, y lo llamó "gas silvestre".
+                                        </p>
+                                    </li>
+                                </ul>
+                        </p>
                     </div>
                 </div>
 
@@ -165,13 +322,23 @@
         </article>
     </section>
 
-    <section class="seccion-articulo" id="invento4">
+    <section class="seccion-articulo" id="robert">
         <article>
             <div class="row g-0">
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-tex">
                     <div class="div-tex">
-                        <h2>Hola mundo 4</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio pariatur animi voluptates qui cupiditate maxime, voluptatibus eum molestias suscipit velit culpa illo cum fugit voluptatum laborum recusandae temporibus architecto? Vitae.</p>
+                        <h2>Robert Boyle</h2>
+                        <p>
+                            De 1656 a 1668 trabajó en la Universidad de Oxford como asistente de Robert Hooke, con cuya colaboración contó en la realización de una serie de experimentos, los resultados de estas aportaciones fueron recogidos en su Nuevos experimentos físico-mecánicos acerca de la elasticidad del aire y sus efectos (1660). 
+                            <br>
+                            En 1661 publicó The Sceptical Chemist (El químico escéptico).
+                            <br>
+                            <br>
+                            Por el contrario, Boyle propuso el concepto de partículas fundamentales que, al combinarse entre sí en diversas proporciones, generan las distintas materias conocidas. 
+                            <br>
+                            Robert invirtió parte de su dinero en obras como la traducción y publicación de los evangelios en gaélico y turco.
+
+                        </p>
                     </div>
                 </div>
 
@@ -190,7 +357,7 @@
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-tex">
                     <div class="div-tex">
                         <h2>Multimedia</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio pariatur animi voluptates qui cupiditate maxime, voluptatibus eum molestias suscipit velit culpa illo cum fugit voluptatum laborum recusandae temporibus architecto? Vitae.</p>
+                        <p>El siguiente video se trata de la historia de la química</p>
                     </div>
                 </div>
 
@@ -218,15 +385,8 @@
     
     <!--Typed.js-->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-    <script src="./js/main.js"></script>
 
-    <script>
-        //Metodo para cerrar el munu del navbar para celulares
-        $(".navbar-nav li a").click(function (event) {
-            if (!$(this).parent().hasClass('dropdown'))
-                $(".navbar-collapse").collapse('hide');
-        });
-    </script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

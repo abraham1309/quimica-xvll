@@ -41,3 +41,9 @@ window.onscroll=()=>{
     });
 
 };
+
+//Metodo para cerrar el munu del navbar para celulares
+$(".navbar-nav li a").click(function (event) {
+    if (!$(this).parent().hasClass('dropdown'))
+        $(".navbar-collapse").collapse('hide');
+});

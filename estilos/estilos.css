@@ -17,14 +17,9 @@ body{
 }
 
 ul li .activo{
-    border-radius: 30px;
-    height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #482400;
-    color: #fff !important;
-    font-weight: normal;
+    color: rgb(255, 255, 255) !important;
+    font-weight: bolder;
+    text-decoration: underline  white;
 }
 
 /*Estilos de seccion inicio*/
@@ -89,9 +84,11 @@ ul li .activo{
 /*Estilos para la seccion de articulo*/
 .seccion-articulo{
     width: 100vw;
-    height: 100vh;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
 
-    background: url('../imagenes/Fondo-papel.png');
+    background: url('../imagenes/fondo-papel2.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -100,7 +97,7 @@ ul li .activo{
 
 
 .seccion-articulo .div-general-tex, .div-general-imagen{
-    height: 100vh;
+    height: auto;
 }
 
 .seccion-articulo .div-general-tex{
@@ -111,8 +108,8 @@ ul li .activo{
 }
 
 .seccion-articulo .div-general-tex .div-tex{
-    width: 80%;
-    text-align: center;
+    width: 90%;
+    text-align: justify;
 }
 
 .seccion-articulo .div-general-tex .div-tex h2{
@@ -124,14 +121,16 @@ ul li .activo{
 .seccion-articulo .div-general-tex .div-tex p{
     font-family: 'Livvic', sans-serif;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 16px;
     color: #482400;
 }
+
 
 .seccion-articulo .div-general-imagen{
     display: flex;
     justify-content: center;
     align-items: center;
+    height: auto;
 }
 
 .seccion-articulo .div-general-imagen .div-imagen{
@@ -147,7 +146,7 @@ ul li .activo{
     width: 100vw;
     height: 100vh;
 
-    background: url('../imagenes/Fondo-papel.png');
+    background: url('../imagenes/fondo-papel2.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -210,4 +209,67 @@ ul li .activo{
 
 .seccion-multimedia .div-general-imagen .div-imagen img{
     width: 100%;
+}
+
+/*Estilos para la presentacion*/
+.seccion-presentacion{
+    width: 100vw;
+    height: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+    background: url('../imagenes/Fondo-papel.png');
+    background-color: darkgreen;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    z-index: -1;
+}
+
+.seccion-presentacion .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccion-presentacion .row .div-titulo h1{
+    font-family: 'Redressed', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: #482400;
+}
+
+.seccion-presentacion .row .div-item{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.seccion-presentacion .row .div-item .fas{
+    font-size: 70px;
+}
+
+.seccion-presentacion .row .div-item h2{
+    font-family: 'Righteous', cursive;
+}
+
+.seccion-presentacion .row .div-item p{
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.seccion-presentacion .row .div-item ul{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.seccion-presentacion .row .div-item-medio{
+    margin-left: 5%;
+    margin-right: 5%;
 }

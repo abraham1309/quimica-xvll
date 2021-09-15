@@ -9,6 +9,19 @@
         justify-content: center;
         align-items: center;
     }
+    
+    /*Seccion de presentacion*/
+    .seccion-presentacion .row .div-item{
+        width: 80%;
+        margin-top: 10%;
+    }
+
+    .seccion-presentacion .row .div-item-medio{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    
 
     /*Seccion de articulos*/
     .seccion-articulo{
