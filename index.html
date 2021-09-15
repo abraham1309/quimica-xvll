@@ -13,6 +13,9 @@
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
     <title>Aportaciones de la quimica en el siglo XVll</title>
 
+    <!--Aos.js-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!--font-family: 'Redressed', cursive;-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,9 +46,18 @@
 </head>
 
 <body>
+    <div class="spinner-wrapper">
+        <div class="spinner">
+          <div class="bounce1"></div>
+          <div class="bounce2"></div>
+          <div class="bounce3"></div>
+        </div>
+    </div>
+
+
     <nav class="navbar navbar-expand-lg navbar-dark  bg-dark  fixed-top" style="background-color: #000000 !important;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">QUÍMICA</a>
+            <a class="navbar-brand" href="#incio">QUÍMICA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -76,13 +88,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./html/linea-de-tiempo.html" target="_blank" rel="noopener noreferrer">Linea de tiempo</a>
                     </li>  
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bibliografia">bibliografia</a>
+                    </li>  
                 </ul>
             </div>
         </div>
     </nav>
 
 
-    <section class="seccion-inicio" id="inicio">
+    <section class="seccion-inicio" id="inicio" data-aos="zoom-out" data-aos-duration="2000">
         <div class="row g-0">
             <div class="col-12 div-general-titulo">
                 <div class="div-texto">
@@ -95,14 +110,16 @@
 
                 <div class="div-animacion">
                     <span class="typed"></span>
-                  </div>
+                </div>
         
                   <div class="div-animacion" id="cadenas-texto">
-                    <h2 class="h2-trabajo">Concepto 1</h2>
-                    <h2 class="h2-trabajo">Mapa</h2>
-                    <h2 class="h2-trabajo">Definicion</h2>
-                    <h2 class="h2-trabajo">Invento</h2>
-                    <h2 class="h2-trabajo">Producción</h2>
+                    <h2 class="h2-trabajo">Química</h2>
+                    <h2 class="h2-trabajo">Robert</h2>
+                    <h2 class="h2-trabajo">Aportaciones</h2>
+                    <h2 class="h2-trabajo">Teoría corpuscular</h2>
+                    <h2 class="h2-trabajo">Cuerpos gaseosos</h2>
+                    <h2 class="h2-trabajo">Características físicas del aire</h2>
+                    <h2 class="h2-trabajo">The Sceptical Chemist </h2>
                   </div>
 
                 <div class="div-imagen-res">
@@ -129,19 +146,19 @@
 
     <section class="seccion-presentacion" id="presentacion">
         <div class="row g-0">
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item">
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item" data-aos="zoom-out-right" data-aos-duration="1500">
                 <img src="./imagenes/logo-tec.png" width="40%" alt="Instituto Tecnológico Superior de Xalapa">
                 <h2>Universidad</h2>
                 <p>Instituto Tecnológico Superior de Xalapa</p>
             </div>
 
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item div-item-medio">
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item div-item-medio" data-aos="zoom-out" data-aos-duration="1500">
                 <i class="fas fa-user-graduate"></i>
                 <h2>Carrera</h2>
                 <p>Ingeniería en Sistemas Computacionales</p>
             </div>
 
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item">
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item" data-aos="zoom-out-left" data-aos-duration="1500">
                 <i class="fas fa-users"></i>
                 <h2>Semstre y grupo</h2>
                 <p>1-C</p>
@@ -149,19 +166,19 @@
         </div>
 
         <div class="row g-0">
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item">
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item" data-aos="zoom-out-right" data-aos-duration="1500">
                 <i class="fas fa-book"></i>
                 <h2>Materia</h2>
                 <p>Química</p>
             </div>
 
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item div-item-medio">
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item div-item-medio" data-aos="zoom-out" data-aos-duration="1500">
                 <i class="fas fa-chalkboard-teacher"></i>
                 <h2>Docente</h2>
                 <p>Guevara Villegas Renee</p>
             </div>
 
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item">
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item" data-aos="zoom-out-left" data-aos-duration="1500">
                 <i class="fas fa-user-friends"></i>
                 <h2>Alumnos</h2>
                 <ul>
@@ -189,13 +206,13 @@
         </div>
 
         <div class="row g-0">
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item">
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item" data-aos="zoom-out-right" data-aos-duration="1500">
                 <i class="far fa-comments"></i>
                 <h2>Tema</h2>
                 <p>1. Grandes aportaciones de la quimica en el siglo xvii</p>
             </div>
 
-            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item div-item-medio">
+            <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2 div-item div-item-medio" data-aos="zoom-out-left" data-aos-duration="1500">
                 <i class="fas fa-calendar-alt"></i>
                 <h2>Fecha de entrega</h2>
                 <p>15 de Septiembre de 2021 </p>
@@ -206,7 +223,7 @@
     <section class="seccion-articulo" id="química">
         <article>
             <div class="row g-0">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-tex">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-tex" data-aos="fade-right" data-aos-duration="1500">
                     <div class="div-tex">
                         <h2>Química</h2>
                         <p>
@@ -243,7 +260,7 @@
 
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-imagen">
                     <div class="div-imagen">
-                        <img src="./imagenes/laptop.png" alt="">
+                        <img src="./imagenes/Quimica.png" alt="" data-aos="flip-right" data-aos-duration="1500">
                     </div>
                 </div>
             </div>
@@ -253,7 +270,7 @@
     <section class="seccion-articulo" id="aportaciones">
         <article>
             <div class="row g-0">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-tex">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-tex"  data-aos="fade-right" data-aos-duration="1500">
                     <div class="div-tex">
                         <h2>Aportaciones del siglo XVll</h2>
                         <p>
@@ -279,7 +296,8 @@
 
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-imagen">
                     <div class="div-imagen">
-                        <img src="./imagenes/laptop.png" alt="">
+                        <img src="./imagenes/Joachim-Jungius.png" alt=""  data-aos="flip-right" data-aos-duration="1500">
+                        <img src="./imagenes/Robert-Boyle.png.png" alt=""  data-aos="flip-right" data-aos-duration="1500">
                     </div>
                 </div>
             </div>
@@ -289,7 +307,7 @@
     <section class="seccion-articulo" id="jan">
         <article>
             <div class="row g-0">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-tex">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-tex" data-aos="fade-right" data-aos-duration="1500">
                     <div class="div-tex">
                         <h2>Jan Baptista van Helmont</h2>
                         <p>
@@ -326,7 +344,7 @@
 
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-imagen">
                     <div class="div-imagen">
-                        <img src="./imagenes/laptop.png" alt="">
+                        <img src="./imagenes/Jan-Baptista van-Helmont.png" alt="" data-aos="flip-right" data-aos-duration="1500">
                     </div>
                 </div>
             </div>
@@ -336,7 +354,7 @@
     <section class="seccion-articulo" id="robert">
         <article>
             <div class="row g-0">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-tex">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-tex" data-aos="fade-right" data-aos-duration="1500">
                     <div class="div-tex">
                         <h2>Robert Boyle</h2>
                         <p>
@@ -355,7 +373,7 @@
 
                 <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-imagen">
                     <div class="div-imagen">
-                        <img src="./imagenes/laptop.png" alt="">
+                        <img src="./imagenes/Robert-Boyle.png.png" alt="" data-aos="flip-right" data-aos-duration="1500">
                     </div>
                 </div>
             </div>
@@ -365,14 +383,14 @@
     <section class="seccion-multimedia" id="multimedia">
         <article>
             <div class="row g-0">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-tex">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-tex" data-aos="fade-right" data-aos-duration="1500">
                     <div class="div-tex">
                         <h2>Multimedia</h2>
                         <p>El siguiente video se trata de la historia de la química</p>
                     </div>
                 </div>
 
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-imagen">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 div-general-imagen" data-aos="fade-left" data-aos-duration="1500">
                     <div class="div-imagen">
                         <div class="div-video">
                             <iframe width="99%" height="99%" src="https://www.youtube.com/embed/hrf_QOYhc28?modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay=; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -381,6 +399,39 @@
                 </div>
             </div>
         </article>
+    </section>
+
+    <section class="seccion-bibliografias" id="bibliografia">
+        <div class="div-general-bibliografias" data-aos="zoom-in-down" data-aos-duration="1500">
+            <h2>Bibliografia</h2>
+
+                    <a href="https://www.ecured.cu/Jan_Baptista_van_Helmont"  target="_blank" rel="noopener noreferrer">•	https://www.ecured.cu/
+                        <br>
+                        Jan_Baptista_van_Helmont</a>
+ 
+                    <br>
+                    <a href="https://www.biografiasyvidas.com/biografia/b/boyle.htm"  target="_blank" rel="noopener noreferrer">•	https://www.biografiasyvidas.com/
+                        <br>
+                        biografia/b/boyle.htm</a>
+     
+                    <br>
+                    <a href="http://www.ujaen.es/investiga/cts380/historia/siglos_xvii.htm"  target="_blank" rel="noopener noreferrer">•	http://www.ujaen.es/investiga/
+                        <br>
+                        cts380/historia/siglos_xvii.htm</a>
+    
+                    <br>
+                    <a href="https://thales.cica.es/rd/Recursos/rd99/ed99-0314-01/la_quimica.htm#:~:text=En%20el%20siglo%20XVII%20destacan,de%20establecer%20la%20ley%20de"  target="_blank" rel="noopener noreferrer">
+                        •	https://thales.cica.es/rd/Recursos/rd99/ed99-0314-01/
+                        <br>
+                        la_quimica.htm#:~:text=En%20el%20
+                        <br>
+                        siglo%20XVII%20destacan,
+                        <br>
+                        de%20establecer%20la%20ley%20de
+                    </a>
+                </li>
+            </ul>
+        </div>
     </section>
 
     <footer>
@@ -398,6 +449,12 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
 
     <script src="./js/main.js"></script>
+
+    <!--Aos.js-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 </html>

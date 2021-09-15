@@ -64,6 +64,21 @@
     }
 }
 
+
+
+@media screen and (max-width: 625px){
+    
+.seccion-bibliografias .div-general-bibliografias a{
+    width: 90%;
+    font-family: 'Livvic', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: #482400;
+    text-decoration-color: #482400;
+
+}
+}
+
 @media screen and (max-width: 550px){
     /*Titulo del inicio*/
     .seccion-inicio .div-general-titulo .div-texto h1{

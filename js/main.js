@@ -47,3 +47,19 @@ $(".navbar-nav li a").click(function (event) {
     if (!$(this).parent().hasClass('dropdown'))
         $(".navbar-collapse").collapse('hide');
 });
+
+/*Metodo para el spiner*/
+(function($) {
+    "use strict"; 
+	
+	$(window).on('load', function() {
+		var preloaderFadeOutTime = 500;
+		function hidePreloader() {
+			var preloader = $('.spinner-wrapper');
+			setTimeout(function() {
+				preloader.fadeOut(preloaderFadeOutTime);
+			}, 500);
+		}
+		hidePreloader();
+	});
+})(jQuery);
