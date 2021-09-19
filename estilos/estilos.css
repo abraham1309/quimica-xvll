@@ -342,7 +342,7 @@ ul li .activo{
     background: url('../imagenes/fondo-papel2.png');
     height: 100vh;
     width: 100vw;
-    position: absolute;    
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -372,4 +372,20 @@ ul li .activo{
     font-size: 20px;
     color: #482400;
     text-decoration-color: #482400;
+}
+
+/*Diseño para el footer*/
+footer{
+    width: 100vw;
+    height: 125px;
+}
+
+footer .div-fondo-footer{
+    background: url('../imagenes/fondo-footer.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 40vh;
+    z-index: 1;
 }
