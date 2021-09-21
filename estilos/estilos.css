@@ -246,10 +246,22 @@ ul li .activo{
 .seccion-articulo .div-general-tex .div-tex p{
     font-family: 'Livvic', sans-serif;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     color: #482400;
     text-align: justify;
 }
+
+.seccion-articulo .div-general-tex .div-tex a:not(.a-h2), .a-li{
+    text-decoration-color: #233bc2;
+    color: #233bc2;
+}
+
+.seccion-articulo .div-general-tex .div-tex .a-h2{
+    text-decoration-color: #482400;
+    color: #482400;
+}
+
+
 
 
 .seccion-articulo .div-general-imagen{
