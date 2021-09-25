@@ -63,3 +63,4 @@ $(".navbar-nav li a").click(function (event) {
 		hidePreloader();
 	});
 })(jQuery);
+
